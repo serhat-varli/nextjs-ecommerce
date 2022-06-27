@@ -1,0 +1,24 @@
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+      a {
+        text-decoration: none;
+        position: relative;
+        color: #030505;
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        padding: 0 9px;
+      }
+    }
+  }
+}

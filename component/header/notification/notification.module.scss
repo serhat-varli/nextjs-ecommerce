@@ -1,0 +1,27 @@
+.notification {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  background-color: #121212;
+  max-height: 50px;
+  &.active {
+    transition: all ease 0.7s;
+    max-height: 0;
+    overflow: hidden;
+  }
+  a {
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    display: inline-block;
+    padding: 6px 10px;
+    text-decoration: none;
+  }
+  .icon-times-l {
+    position: absolute;
+    right: 1rem;
+    top: 3px;
+    color: white;
+    cursor: pointer;
+  }
+}

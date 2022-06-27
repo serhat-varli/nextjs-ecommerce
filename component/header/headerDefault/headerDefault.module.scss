@@ -1,0 +1,16 @@
+.header {
+  .navition {
+    position: relative;
+    z-index: 15;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    min-height: 60px;
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-decoration:none;
+  }
+}

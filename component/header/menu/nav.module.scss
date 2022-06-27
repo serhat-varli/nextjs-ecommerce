@@ -1,0 +1,22 @@
+.nav {
+    margin: 0;
+    padding: 0;
+    li {
+        display: inline-block;
+        text-align: left;
+        margin-right: 10px;
+         a {
+            color: #000;
+            font-size: 13px;
+            font-weight: 400;
+            text-transform: uppercase;
+            position: relative;
+            line-height: 40px;
+            padding: 0 15px;
+            min-height: 55px;
+            display: flex;
+            align-items: center;
+            text-decoration:none;
+         }
+    }
+}

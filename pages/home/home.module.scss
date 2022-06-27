@@ -1,0 +1,14 @@
+.home {
+  overflow: hidden;
+  .slick-slider {
+    &.slick-active {
+      .slideshow__text {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
