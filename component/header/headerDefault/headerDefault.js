@@ -7,7 +7,7 @@ import styles from './headerDefault.module.scss';
 export default function HeaderDefault() {
     return (
         <header className={styles.header}>
-            <Notification/>
+            <Notification />
             <div className={styles.navition}>
                 <div className="container-fluid">
                     <div className='row'>

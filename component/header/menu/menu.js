@@ -42,7 +42,7 @@ export default function MenuHeader() {
         <ul className={styles.nav}>
             {
                 navMenu.map(nav => (
-                    <li key={nav.id}><Link href=""><a>{nav.name}</a></Link></li>
+                    <li key={nav.id}><Link href="/"><a>{nav.name}</a></Link></li>
                 ))
             }
         </ul>

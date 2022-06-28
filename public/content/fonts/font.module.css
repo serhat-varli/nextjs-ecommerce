@@ -8914,7 +8914,7 @@
   content: "\ebf2";
 }
 
-.icon-search-l:before {
+.icon-search-l:before, .user_icon-search-l__POaKI:before {
   font-family: "icomoon" !important;
   speak: never;
   font-style: normal;
@@ -9278,7 +9278,7 @@
   content: "\ec0e";
 }
 
-.icon-times-l:before, .notification_icon-times-l__0NBWp::before {
+.icon-times-l:before, .notification_icon-times-l__0NBWp::before, .user_icon-times-l__Jxhxs::before {
   font-family: "icomoon" !important;
   speak: never;
   font-style: normal;

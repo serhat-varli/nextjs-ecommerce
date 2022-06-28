@@ -42,8 +42,37 @@ body {
     }
   }
   .fourbox_four-box__NeEoC {
-    .col-md-6 {
-      margin-bottom: 30px;
+    .col-md-12 {
+      margin-bottom: 15px;
     }
   }
+}
+
+.btn {
+  display: inline-block;
+  width: auto;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0) !important;
+  background-color: #000 !important;
+  color: #fff!important;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1;
+  white-space: normal;
+  transition: all 0.3s ease-in-out;
+  font-size: 13px;
+  padding: 10px 24px;
+  white-space: nowrap;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  outline: 0!important;
 }
