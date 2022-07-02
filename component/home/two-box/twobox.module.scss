@@ -1,0 +1,37 @@
+.two-box {
+  margin: 15px auto 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1200px;
+  .box__area {
+    position: relative;
+    overflow: hidden;
+    .img {
+        width: 100%!important;
+        height: 100%!important;
+        transition: all ease-out .4s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+    .box {
+      background-color: #ffffff;
+      color: #000000;
+      left: 50%;
+      transform: translate(-50%);
+      position: absolute;
+      bottom: 30px;
+      right: 0;
+      padding: 20px;
+      text-align: center;
+       h3 {
+        font-size: 16px;
+        margin: 0;
+        font-weight: 700;
+        line-height: 1.4;
+        letter-spacing: .02em;
+        margin-bottom: 10px;
+       }
+    }
+  }
+}
