@@ -1,4 +1,5 @@
 
+import Blog from '../../component/home/blog/blog'
 import FourBox from '../../component/home/four-box/fourBox'
 import Popules from '../../component/home/popules/popules'
 import Sliders from '../../component/home/slider/slider'
@@ -12,6 +13,7 @@ export default function Homes() {
             <FourBox />
             <Popules/>
             <TwoBox/>
+            <Blog/>
         </div>
     )
 }

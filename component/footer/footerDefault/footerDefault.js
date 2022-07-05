@@ -1,7 +1,12 @@
-export default function FooterDefault () {
+import Cargo from "../cargo/cargo";
+import styles from "./footer.module.scss";
+
+export default function FooterDefault() {
     return (
-        <div className="">
-            FooterDefault
-        </div>
-    ) 
+        <footer>
+            <div className={styles.footer}>
+                <Cargo />
+            </div>
+        </footer>
+    )
 }
