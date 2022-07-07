@@ -12,6 +12,20 @@
     padding: 0 15px;
     max-width: 1200px;
     margin: 0 auto;
-    text-decoration:none;
+    text-decoration: none;
+  }
+
+  .active {
+    position: fixed;
+    z-index: 99;
+    left: 323px;
+    top: 6px;
+  }
+  .btn-nav {
+    margin-right: 15px;
+    display: none;
+    @media (max-width: 991px) {
+      display: block;
+    }
   }
 }

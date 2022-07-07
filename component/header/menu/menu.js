@@ -37,9 +37,9 @@ const navMenu = [
 ]
 import Link from 'next/link'
 import styles from './nav.module.scss'
-export default function MenuHeader() {
+export default function MenuHeader({active}) {
     return (
-        <ul className={styles.nav}>
+        <ul className={[styles.nav, active == true ? styles.active: ""].join(" ")}>
             {
                 navMenu.map(nav => (
                     <li key={nav.id}><Link href="/"><a>{nav.name}</a></Link></li>

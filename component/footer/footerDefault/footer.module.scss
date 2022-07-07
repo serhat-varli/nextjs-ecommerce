@@ -1,3 +1,11 @@
 .footer {
-    
+  background: white;
+  color: black;
+  .footer__wrap {
+    margin: 60px auto 60px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+  }
+  
 }
