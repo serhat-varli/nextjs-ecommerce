@@ -91,13 +91,13 @@ export default function Popules() {
                                 <div className={styles.img}>
                                     <img src={slider.img} alt="" width='350' height='450' />
                                     <div className={styles['button-set']}>
-                                        <Link href="">
+                                        <Link href="/">
                                             <a className="btn" >
                                                 <i className="icon-heart-l"></i>
                                             </a>
                                         </Link>
 
-                                        <Link href="">
+                                        <Link href="/">
                                             <a className="btn">
                                                 <i className="icon-cart-l" aria-hidden="true"></i>
                                             </a>
