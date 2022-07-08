@@ -1,10 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
 import Image from "next/image";
+import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from './popules.module.scss'
-import Link from "next/link";
 export default function Popules() {
     const populers = [
         {
@@ -91,12 +91,18 @@ export default function Popules() {
                                 <div className={styles.img}>
                                     <img src={slider.img} alt="" width='350' height='450' />
                                     <div className={styles['button-set']}>
-                                        <a className="btn" href="">
-                                            <i className="icon-heart-l"></i>
-                                        </a>
-                                        <a className="btn" href="">
-                                            <i className="icon-cart-l" aria-hidden="true"></i>
-                                        </a>
+                                        <Link href="">
+                                            <a className="btn" >
+                                                <i className="icon-heart-l"></i>
+                                            </a>
+                                        </Link>
+
+                                        <Link href="">
+                                            <a className="btn">
+                                                <i className="icon-cart-l" aria-hidden="true"></i>
+                                            </a>
+                                        </Link>
+
                                     </div>
                                 </div>
                                 <div className={styles.info}>

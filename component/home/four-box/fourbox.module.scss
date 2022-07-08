@@ -6,12 +6,12 @@
   .box__area {
     position: relative;
     .img {
-        width: 100%!important;
-        height: 100%!important;
-        transition: all ease-out .4s;
-        &:hover {
-            transform: scale(1.1);
-        }
+      width: 100% !important;
+      height: 100% !important;
+      transition: all ease-out 0.4s;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
     .box {
       background-color: #ffffff;
@@ -23,6 +23,10 @@
       right: 0;
       padding: 20px;
       text-align: center;
+      @media (max-width: 767px) {
+        left: 17%;
+        transform: translate(-10%);
+      }
     }
   }
 }
